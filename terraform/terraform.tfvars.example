@@ -1,0 +1,10 @@
+aws_region          = "us-east-1"
+project_name        = "serverless-task-mgmt"
+environment         = "prod"
+admin_email         = "admin@amalitech.com"
+ses_verified_domain = "amalitech.com"
+
+allowed_email_domains = [
+  "amalitech.com",
+  "amalitechtraining.org"
+]
