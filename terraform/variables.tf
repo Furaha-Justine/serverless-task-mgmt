@@ -30,7 +30,7 @@ variable "admin_email" {
 variable "ses_verified_domain" {
   description = "SES verified domain for sending emails"
   type        = string
-  default     = "amalitech.com"
+  default     = "gmail.com"
 }
 variable "github_token" {
   description = "GitHub token with repo access for Amplify"

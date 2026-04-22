@@ -1,0 +1,15 @@
+node_modules/
+coverage/
+*.log
+.env
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea
+.env.local
+n
+
+
