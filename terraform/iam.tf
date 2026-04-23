@@ -63,11 +63,6 @@ resource "aws_iam_role_policy" "lambda_task_ops_policy" {
         Effect = "Allow"
         Action = ["ses:SendEmail", "ses:SendRawEmail"]
         Resource = "*"
-        Condition = {
-          StringEquals = {
-            "ses:FromAddress" = "furaha.uwizeye@${var.ses_verified_domain}"
-          }
-        }
       },
       {
         Sid    = "CognitoListUsers"

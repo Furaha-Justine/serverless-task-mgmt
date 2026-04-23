@@ -3,6 +3,7 @@ project_name        = "serverless-task-mgmt"
 environment         = "prod"
 admin_email         = "admin@amalitech.com"
 ses_verified_domain = "amalitech.com"
+ses_from_email      = "noreply@amalitech.com"
 
 allowed_email_domains = [
   "amalitech.com",

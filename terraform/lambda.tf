@@ -58,7 +58,7 @@ locals {
     ASSIGNMENTS_TABLE = aws_dynamodb_table.assignments.name
     USERS_TABLE       = aws_dynamodb_table.users.name
     USER_POOL_ID      = aws_cognito_user_pool.main.id
-    SES_FROM_EMAIL    = "furahajust@${var.ses_verified_domain}"
+    SES_FROM_EMAIL    = var.ses_from_email
     REGION            = var.aws_region
   }
 }

@@ -32,6 +32,12 @@ variable "ses_verified_domain" {
   type        = string
   default     = "gmail.com"
 }
+
+variable "ses_from_email" {
+  description = "Verified SES sender email address used as From address"
+  type        = string
+}
+
 variable "github_token" {
   description = "GitHub token with repo access for Amplify"
   type        = string
